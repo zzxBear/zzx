@@ -2,81 +2,81 @@
 
 如何有Node js 连接数据库的小案例
 
-用Node.js 实现与mySQL数据库连接的简单操作  const express=require('express');  
+用Node.js 实现与mySQL数据库连接的简单操作 
 
- const static=require('express-static');  
+   const express=require('express');  
 
- const mysql=require('mysql'); 
+   const static=require('express-static');  
 
-let server=express();     
+   const mysql=require('mysql'); 
 
- server.listen(4000);  
+   let server=express();     
 
- let db=mysql.createConnection({    
+   server.listen(4000);  
+
+   let db=mysql.createConnection({    
 
   host:'localhost',    
 
   user:'root',     
 
- password:'',     
+  password:'',     
 
- database:'school'  });  
+  database:'school'  
+  });  
 
- server.get('/aaa',(req,res)=>{    
+      server.get('/aaa',(req,res)=>{    
 
-  db.query('select * from person',      
+      db.query('select * from person',      
 
-    (err,data)=>{          
+      (err,data)=>{          
 
- res.send(data);        
+      res.send(data);        
 
-  res.end();         
+       res.end();         
 
- });  }); 
+      });  
+      }); 
 
- server.use(static('abc'));     
+     server.use(static('abc'));    //中间键 
+     
 
-   person.html 文件用jquery和bootstrap代码如下
-
-
-
-Title
-
+     ###  person.html 文件用jquery和bootstrap代码如下
 
 
-Title
 
 
-$(()=>{
 
-$.ajax({
 
-url:'/aaa',
+  $(()=>{
 
-dataType:'json',
+         $.ajax({
 
-cache:false,
+            url:'/aaa',
 
-success:r=>{
+            dataType:'json',
 
-console.log(r);
+            cache:false,
 
-$.each(r,(i,v)=>{
+            success:r=>{
 
-${v.ID}
+           console.log(r);
 
-${v.name}
+           $.each(r,(i,v)=>{
 
-${v.aga}
+            ${v.ID}
 
-${v.job}
+            ${v.name}
 
-`) .appendTo('tBody');
+            ${v.aga}
 
-});
+            ${v.job}
 
-}
+           `) .appendTo('tBody');
 
-})
+           });
 
-})
+          }
+
+      })
+ })
