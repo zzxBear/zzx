@@ -1,37 +1,82 @@
-## Welcome to GitHub Pages
+## Welcome to Node
 
-You can use the [editor on GitHub](https://github.com/zzxBear/myProject/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+如何有Node js 连接数据库的小案例
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+用Node.js 实现与mySQL数据库连接的简单操作  const express=require('express');  
 
-### Markdown
+ const static=require('express-static');  
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+ const mysql=require('mysql'); 
 
-```markdown
-Syntax highlighted code block
+let server=express();     
 
-# Header 1
-## Header 2
-### Header 3
+ server.listen(4000);  
 
-- Bulleted
-- List
+ let db=mysql.createConnection({    
 
-1. Numbered
-2. List
+  host:'localhost',    
 
-**Bold** and _Italic_ and `Code` text
+  user:'root',     
 
-[Link](url) and ![Image](src)
-```
+ password:'',     
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+ database:'school'  });  
 
-### Jekyll Themes
+ server.get('/aaa',(req,res)=>{    
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/zzxBear/myProject/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+  db.query('select * from person',      
 
-### Support or Contact
+    (err,data)=>{          
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+ res.send(data);        
+
+  res.end();         
+
+ });  }); 
+
+ server.use(static('abc'));     
+
+   person.html 文件用jquery和bootstrap代码如下
+
+
+
+Title
+
+
+
+Title
+
+
+$(()=>{
+
+$.ajax({
+
+url:'/aaa',
+
+dataType:'json',
+
+cache:false,
+
+success:r=>{
+
+console.log(r);
+
+$.each(r,(i,v)=>{
+
+${v.ID}
+
+${v.name}
+
+${v.aga}
+
+${v.job}
+
+`) .appendTo('tBody');
+
+});
+
+}
+
+})
+
+})
