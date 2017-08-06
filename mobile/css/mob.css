@@ -1,0 +1,251 @@
+.head{display:flex;
+        justify-content: space-between;
+        width:7.5rem;
+        margin:0 auto;
+    }
+.head-l{width:3.76rem;border-right:1px solid #ccc;
+        margin-top:.08rem;
+        border-bottom:1px solid #ccc;
+        }
+.head-r{width:3.73rem;border-bottom:.01rem solid #ccc;}
+.head-l>span{font-size:.23rem;margin:.32rem 0rem .22rem .31rem;}
+.head-r>span{font-size:.23rem;margin:.40rem 0 .22rem .61rem; }
+.head-l p{font-size:.21rem;margin:0rem 0 .36rem .33rem;}
+.head-r p{font-size:.21rem;margin:0rem 0 .36rem .6rem;}
+.head-r p i{font-size:.36rem;}
+.head-l p i{font-size:.36rem;}
+.list{width:7.5rem;margin:0 auto;}
+.list ul {display:flex;margin:0rem .3rem;
+            justify-content:space-around;
+          }
+.list ul li a{justify-content: center;}
+.list ul{height:1.56rem;}
+.list ul li .a1 span{font-size:.24rem;font-weight:bold;
+                      text-align:center;
+                        width:1.11rem;
+                        margin:0 0 .19rem .19rem;
+                    }
+.list ul li .a1{width:1.11rem;
+                    text-align:center;
+                    display:block;
+                    height:1.56rem;
+                    font-size:.24rem;
+                    }
+.list ul .a1 img{margin:.33rem 0rem .21rem .29rem;width:.69rem;height:.67rem;}
+
+
+.list ul li .a2{width:1.22rem;
+                height:1.56rem;
+                text-align:center;
+                display:block;
+
+}
+.list ul li .a2 span{font-size:.24rem;
+                    display:block;
+                    font-weight:bold;
+                    text-align:center;
+                    width:1.22rem;
+                    margin:0rem 0 .19rem .18rem;
+}
+.list ul .a2 img{margin:.32rem 0rem .22rem .45rem;width:.62rem;height:.64rem;}
+.list ul li .a3{width:1.22rem;
+    height:1.56rem;
+    text-align:center;
+    display:block;
+
+}
+.list ul li .a3 span{font-size:.24rem;
+    display:block;
+    font-weight:bold;
+    text-align:center;
+    width:1.22rem;
+    margin:0rem 0 .19rem .19rem;
+}
+.list ul .a3 img{margin:.32rem 0rem .20rem .48rem;width:.49rem;height:.69rem;}
+
+.list ul li .a4{width:1.39rem;
+    height:1.56rem;
+    text-align:center;
+    display:block;
+    position:relative;
+}
+
+.list ul li .a4 span{font-size:.24rem;
+    display:block;
+    font-weight:bold;
+    text-align:center;
+    width:1.39rem;
+    margin:0rem .22rem .19rem 0rem;
+}
+.list ul .a4 img{margin:.34rem 0rem .25rem .25rem;width:.70rem;height:.59rem;}
+.list ul .a4 .icon{width:.54rem;height:.32rem;
+                    background:url(../img/ico_hot.png) no-repeat;
+                    position:absolute;right:-0.2rem;top:.1rem;
+                    }
+.swipe img{width:7.5rem;height:2.28rem;}
+.swipe .swiper-pagination span{width:.2rem;height:.2rem;}
+.bg{background:#eee;height:.18rem;}
+.bg_1{background:#eee;height:.2rem;}
+.once-list{display:flex;
+            flex-direction:column;
+
+            position:relative;
+
+            width:7.5rem;
+            margin:0 auto;
+            height:3.83rem;
+            }
+.once-list span{padding:.59rem 0 .24rem 0;
+                font-size:.23rem;
+                color:#ccc;
+                display:inline-flex;
+                justify-content: center;
+                }
+.once-list p{font-size:.6rem;
+             color:red;
+            display:flex;
+            justify-content: center;
+            }
+.once-list p i{font-size:.23rem;margin-top:.35rem;}
+.once-list b{display:inline-flex;
+            justify-content:center;
+            font-size:.26rem;
+            margin:.43rem 0 .31rem 0;
+            }
+.once-list b em{ background:url(../img/ico_cir.png) no-repeat left center;
+                width:.37rem;height:.35rem;
+
+                }
+.once-list  .buy{display:flex;
+                    margin:0 auto;
+                    justify-content: center;
+                    width:2.96rem;
+                    height:.66rem;
+                    line-height:.66rem;
+                    color:red;
+                    border-radius:.5rem;
+                    border:2px solid red;
+                    font-size:.34rem;
+                    position:absolute;
+                    left:35%;
+                    margin-left:-.33rem;
+                    }
+.once-list .you{width:1.53rem;height:.5rem;
+                background:url(../img/ico_tit.png) no-repeat center;
+                color:#fff;
+                font-size:.28rem;
+                text-align:center;
+                line-height:.5rem;
+                position:absolute;
+                left:.35rem;
+                top:.15rem;
+                }
+.biya_list .biya_top{display:flex;font-size:.28rem;
+                    padding-top:.27rem;
+                    padding-bottom:.24rem;
+                    border-bottom:1px solid #eee;
+                    }
+.biya_top span{font-weight:bold; margin-left:.33rem;}
+.biya_top b{height:.25rem;
+            width:1.32rem;
+            font-size:.19rem;
+            color:red;
+            text-align:center;
+            line-height:.25rem;
+            border-radius:.4rem ;
+            display:block;
+            border:2px solid red;
+            margin-left:.24rem;
+            }
+.biya_c{display:flex;
+         justify-content:space-around;
+        }
+.biya_c .p1{color:red;
+            width:1.54rem;
+            text-align:center;
+            }
+.biya_c  p{color:#ababab;
+              font-size:.23rem;
+            }
+.biya_c .p1 span{font-size:.45rem;height:.45rem;
+                    display:block;
+                  padding-top:.25rem;  }
+.biya_c .p1 span i{font-size:.21rem;}
+
+.biya_c .p2{color:#000; width:1rem;text-align:center;}
+
+.biya_c .p2 span{font-size:.33rem; display:block;
+                    padding-top:.33rem;
+                    }
+.biya_c .p2 span i{font-size:.21rem;}
+.biya_c .p3{width:1.54rem;text-align:center;}
+.biya_c .p3 span{font-size:.33rem; display:block;
+                padding-top:.30rem; }
+.biya_c .p3 span i{font-size:.21rem;}
+.biya_bot{display:flex;
+            align-items: center;
+            margin-bottom:.11rem;
+            }
+.biya_bot b{width:6.05rem;height:.08rem;
+            border-radius:.04rem;
+            background:#ccc;
+            display:block;
+            margin-left:.3rem;
+
+            }
+.biya_bot span{width:3.1rem;height:.08rem;
+                border-radius:.04rem;
+                background:red;
+                display:block;
+}
+.biya_c p{padding:.19rem 0 .25rem 0;}
+.biya_bot i{font-size:.18rem;
+            color:red;
+
+            margin-left:.31rem;
+            }
+#piao{margin:0 auto;}
+.piao{display:flex;justify-content:space-between;
+      }
+.piao ul  i{font-size:.24rem;
+            font-weight:bold;
+            display:inline-block;}
+
+.piao ul  li .one{display:flex;
+                    justify-content:center;
+                    height:1.4rem;
+                    align-items: center;
+
+                    }
+.piao .ul1 li{width:3.75rem;}
+.piao .ul2 li{width:3.74rem;border-left:.01rem solid #ccc;}
+.piao .ul1 .one img{width:.64rem;height:.58rem;margin-right:.44rem;}
+.piao .ul1 .two img{width:.82rem;height:.51rem;margin-right:.46rem;}
+.piao .ul2 .one img{width:.76rem;height:.52rem;margin-right:.48rem;}
+.piao .ul2 .two img{width:.76rem;height:.63rem;margin-right:.48rem;}
+.piao ul  li .two{display:flex;
+                    justify-content:center;
+                    height:1.4rem;
+                    align-items: center;
+                    border-top:.01rem solid #ccc;
+                    }
+.company{display:flex;justify-content: space-around;
+                background:#eeeeee;
+                height:1.16rem;}
+.company div{display:flex;justify-content:center;font-size:.19rem;
+             align-items:center;}
+.company .com-l{padding:.21rem 0rem .46rem 0;}
+.company .com-c{padding:.24rem 0rem .43rem 0;}
+.company .com-r{padding:.24rem 0rem .40rem 0;}
+.company .com-l img{width:.53rem;height:.6rem;margin-right:.11rem;}
+.company .com-c img{width:.53rem;height:.6rem;margin-right:.20rem;}
+.company .com-r img{width:.53rem;height:.6rem;margin-right:.13rem;}
+
+.foot ul{display:flex;justify-content: space-around;}
+.foot ul li a{width:.47rem;display:flex;flex-direction: column;
+                align-items: center;
+                height:.98rem;}
+.foot ul li a img{width:.47rem;height:.47rem;margin:.1rem 0;}
+.foot ul li a span{font-size:.23rem;margin-bottom:.08rem;}
+.foot ul li a:hover{color:red;}
+#footer,#company{margin: 0 auto;}
