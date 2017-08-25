@@ -1,0 +1,15 @@
+*{padding:0; margin:0;}
+h1,h2,h3,h4,h5,h6{font-weight:normal; font-size:16px;}
+li{list-style:none;}
+a{text-decoration:none; color:#000;}
+b,strong{font-weight:normal;}
+i,em{font-style:normal;}
+p{line-height:100%;}
+img{vertical-align:top; border:none;}
+.fl{float:left;}
+.fr{float:right;}
+.clearfix:after{display:block; content:''; clear:both;}
+.clearfix{zoom:1;}
+input{ padding:0;  background:none;}
+/*textarea{resize:none;}*/
+table{border-collapse:collapse;}

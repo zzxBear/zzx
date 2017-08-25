@@ -1,0 +1,394 @@
+/*header*/
+header{
+	position: fixed;
+	z-index: 5;
+	left: 0; 
+	top: 0;
+	width: 100%;
+	max-width: 1920px;
+	background: rgba(0,0,0,.4);
+}
+header .head{
+	width: 1200px;
+	margin: 0 auto;
+}
+.head .logo{
+	margin-top: 15px;
+}
+.head nav a{
+	font-size: 20px;
+	color: #fff;
+	margin-left: 73px;
+	line-height: 94px;
+	padding: 0 10px 30px;
+}
+.head nav a:hover{
+	color: #d1b06d;
+	border-bottom: 4px solid #d1b06d;
+
+}
+.head nav .now{
+	color: #d1b06d;
+	border-bottom: 4px solid #d1b06d;
+}
+
+/*law  report*/
+.law_banner{
+	text-align:center;
+	min-width: 1200px;
+}
+.law_banner img{
+	width:100%;
+	max-width: 1920px;
+}
+
+.art_list{
+	width: 1200px;
+	margin: 0 auto;
+	margin-bottom: 36px;
+}
+.art_list .art_list_title{
+	padding: 40px 0;
+}
+.art_list .art_list_title a{
+	width: 160px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 24px;
+	border-radius: 4px;
+	color: #000;
+}
+.art_list .art_list_title .change{
+	color: #fff;
+	background: orange;
+}
+.art_list .art_list_title  span{
+	margin: 8px 35px 0 35px;
+	width: 2px;
+	height: 36px;
+	background: #333;
+}
+
+.art_list_menu ul li{
+	border:1px solid #bdbdbd;
+	padding: 32px 28px 18px 28px;
+	margin-bottom: 40px;
+}
+.art_list_menu ul li h3{
+	font-size: 24px;
+	color: #d1b06d;
+}
+.art_list_menu ul li h3 a{
+	color: #d1b06d;
+}
+.art_list_menu ul li span{
+	font-size: 16px;
+	color: #808080;
+	line-height: 28px;
+}
+.art_list_menu ul li p{
+	font-size: 18px; 
+	line-height: 32px;
+	margin-top: 10px;
+}
+
+.art_list_menu .art_list_pagination{
+	text-align: center;
+}
+
+.art_list_menu .art_list_pagination a{
+	margin: 0 10px;
+	border: 1px solid #d1b06d;
+	width: 28px;
+	height: 28px;
+	font-size: 14px;
+	line-height: 28px;
+	text-align: center;
+	color: #d1b06d;
+	padding: 0;
+	display: inline-block;
+}
+.art_list_menu .art_list_pagination a:active{
+	background:#d1b06d;
+	color: #fff; 
+}
+.art_list_menu .art_list_pagination .change_pagination{
+	width: 57px;
+}
+.art_list_menu .art_list_pagination .on{
+	background:#d1b06d;
+	color: #fff;
+}
+
+/*law_article report_article*/
+.law_article{
+	width: 1200px; 
+	margin: 0 auto;
+	margin-bottom: 120px;
+}
+.report_article{
+	margin-bottom: 0;
+}
+.law_article p{
+	margin-top: 126px;
+}
+.law_article p a{
+	font-size: 16px;
+	color: #424242;
+}
+/*.law_article p span{
+	font-size: 16px;
+	color: #424242;
+}*/
+.law_article h2{
+	text-align: center;
+	font-size: 36px;
+	font-weight: normal;
+	margin: 50px 0;
+}
+.law_article article p{
+	font-size: 16px;
+	text-indent: 2em;
+	line-height: 28px;
+	margin-bottom: 30px;
+	margin-top: 0;
+}
+
+.law_article .release_time{
+	text-align: right;
+	margin-bottom: 40px;
+	font-size: 16px;
+	margin-top: 0;
+}
+.law_article .guoyin{
+	text-align: right;
+	font-size: 16px;
+	margin-top: 0;
+}
+
+/*contact*/
+.honor{
+	width: 200px;
+	margin: 75px auto;
+	margin-top: 169px;
+	height: 65px;
+	text-align: center;
+	position: relative;
+	background: url(../images/contact_honor.png) no-repeat;
+}
+.honor h2{
+	position: absolute;
+	font-size: 30px;
+	bottom: -20px;
+	left: 50%;
+	margin-left: -60px;
+}
+.contact_info{
+	width: 1200px; 
+	margin: 40px auto;
+}
+
+.contact_info li{
+	width: 340px;
+	height: 260px;
+	background: #ecf0f1;
+	text-align: center;
+}
+.contact_info li:nth-child(2){
+	margin:0 90px;
+};
+.contact_info li a{
+	width: 30px;
+	height: 40px;
+}
+.contact_info li a img{
+	display: block;
+	margin: 30px auto 20px;
+}
+.contact_info li span{
+	font-size: 20px;
+	color: #d1b06d;
+}
+.contact_info li b{
+	display: block;
+	width: 40px;
+	height: 4px;
+	margin: 14px auto;
+	background: #d1b06d;
+}
+.contact_info li p{
+	margin-top: 38px;
+	font-size: 16px;
+}
+
+#allmap{/*
+	overflow: hidden;
+    position: relative;
+    z-index: 0;
+    background-color: rgb(243, 241, 236);
+    color: rgb(0, 0, 0);
+    text-align: left;*/
+
+    width: 1200px;
+    margin: 0 auto 46px;    
+    height: 400px;
+}
+
+
+/*financing*/
+.submit_box{
+	min-width: 1200px;
+	max-width: 1920px;
+	padding-top: 75px;
+	padding-bottom: 20px;
+	background: #f9f9f9;
+	margin: 0 auto;
+}
+.submit_box>div{
+	width: 770px;
+	margin: 94px auto 26px;
+}
+.submit_box h4{
+	font-size: 20px;
+	color: #d9b778;
+	border-left: 4px solid #d9b778;
+	padding-left: 10px;
+	margin-bottom: 28px;
+}
+.bearer_information p span{
+	font-size: 18px;
+	margin: 0 16px;
+	color: #333333;
+}
+.bearer_information p input{
+	width: 278px;
+	height: 28px;
+	/*padding-left: 10px;*/
+	border: 1px solid #cbcbcb;
+	margin-left: 16px;
+}
+.bearer_information .company{
+	margin-top: 26px;
+}
+.bearer_information .company input{
+	width: 678px;
+	/*border: 1px solid #d9b778;*/
+}
+.bill_information .bill_one{
+	padding-left: 15px;
+	width: 755px;
+}
+.bill_information .bill_one h5{
+	font-size: 18px;
+	color: #494949;
+	font-weight: normal;
+	margin-bottom: 22px;
+}
+.bill_one .upload p a{
+	margin-right: 32px;
+}
+.bill_one .upload div p {
+	margin: 7px 0;
+	text-align: right;
+}
+.bill_one .upload div p span{
+	font-size: 18px;
+	margin-right: 32px;
+	
+} 
+.bill_one .upload div p input{
+	width: 278px;
+	height: 28px;
+	/*padding-left: 10px;*/
+	border: 1px solid #cbcbcb;
+}
+.bill_one .upload .daoqi{
+	margin-top: 25px;
+}
+.bill_one .set_add{
+	display: block;
+	/*text-align: center;*/
+	margin: 22px auto 28px;
+	width: 30px;
+	height: 30px;
+	background: url(../images/jia.png);
+}
+.bill_one .set_remove{
+	display: block;
+	/*text-align: center;*/
+	margin: 22px auto 28px;
+	width: 30px;
+	height: 30px;
+	background: url(../images/jian.png);
+}
+
+.submit_box .remarks{
+	margin-bottom: 60px;
+}
+.remarks textarea{
+	width: 752px;
+	height: 178px;
+	border: 1px solid #cbcbcb;
+	margin-left: 15px;
+	background: none;
+	resize:none;
+	outline: none;
+	/*text-indent: 2em;*/
+}
+.submit{
+	text-align: center;
+}
+.submit .sub_btn{
+	width: 200px;
+	height: 50px;
+	color: #fff;
+	background: #d9b778;
+	border: none;
+	font-size: 24px;
+}
+
+.step{
+	min-width: 1200px;
+	max-width: 1920px;
+	text-align: center;
+	padding: 78px 0;
+}
+
+/*footer*/
+.foot_box{
+	min-width: 1200px;
+	max-width: 1920px;
+	background: #211e20;
+	margin: 0 auto;
+}
+.foot{
+	width: 1200px;
+	padding: 25px 0;
+	margin: 0 auto;
+}
+.left {
+	margin-left: 50px;
+}
+.left p{
+	margin-bottom: 10px;
+	padding-left: 16px;
+}
+.left span{
+	font-size: 14px; 
+	color: #fff;
+	margin-left: 16px;
+	line-height: 20px;
+}
+.left div img{
+	margin-right: 20px;
+}
+.left .copyright{
+	padding: 0;
+	font-size: 14px;
+	color: #fff;
+	margin-top: 18px;
+}
+.right{
+	margin-top: 18px;
+}

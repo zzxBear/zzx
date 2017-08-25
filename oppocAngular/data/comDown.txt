@@ -1,1 +1,0 @@
-[{"img":"img/1-7.png","title":"img-b","tit":"img2"}]

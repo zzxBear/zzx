@@ -1,5 +1,0 @@
-[{"img":"img/5_03.png","tit":"业界革命，OPPO发布全球最高灵敏度平面振膜耳机PM-1"},
-  {"img":"img/5_06.png","tit":"极致原音 OPPO PM-1耳机斩获EISA年度HiFi大奖"},
-  {"img":"img/5_08.png","tit":"OPPO或在巴塞罗那MWC通讯展发布COLOROS2.0"},
-  {"img":"img/5_10.png","tit":"OPPO N1入选英国《stuff》杂志年度TOP10"}
-]

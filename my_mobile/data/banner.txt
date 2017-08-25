@@ -1,0 +1,8 @@
+{"a":[  {"img":"img/list1.png",""b":"新用户"},
+        {"img":"img/list2.png",""b":"套餐"},
+        {"img":"img/list3.png",""b":"邀请红包"},
+        {"img":"img/list4.png",""b":"企业团购"},
+        ]
+
+
+}

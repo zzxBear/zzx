@@ -1,0 +1,151 @@
+
+.head-l h1 a{background:url(../img/logo1.png) no-repeat center;
+            background-position:-38px -16px;
+            text-indent:-999em;
+            width:233px;
+            height:40px;
+            display:block;
+            }
+
+
+.head{background:rgba(222,222,224,.3);}
+.head-l h1{padding:26px 0 34px 142px;}
+
+.head-c ul li{float:left;
+              margin-top:32px;
+              }
+
+
+.head-c ul{overflow:hidden;}
+
+.head-c ul li a{border-top:2px solid #32c5d2;
+                padding-top:11px;
+                margin-right:31px;
+                font-size:13px;
+                font-weight:bold;
+                color:#32c5d2;
+                }
+.head-c ul li a{border-top:0;}
+.head-c ul li .first{border-top:2px solid #32c5d2}
+
+
+
+/*.head-c ul li a:hover{border-top:2px solid #fee3ef;}*/
+
+.head-c ul .login{  position:relative;
+                    margin-top:34px;
+                    font-size:12px;
+                    font-weight:bold;
+                    padding:10px 18px 8px 39px;
+                    border:none;
+                    text-align:center;
+                    display:block;
+                    background:url(../img/login_03.png) no-repeat 17px 9px;
+                    margin-right:119px;
+                    border-radius:20px;
+                    border:1px solid #000;
+                    color:#32c5d2;
+                    }
+
+.head-c ul .login i{width:83px;height:34px;
+
+                    position:absolute;
+                    left:0;
+                    top:0;
+                    background:url(../img/login_03.png) no-repeat 17px 9px rgba(63,68,74,.4);
+                    border-radius:20px;
+                    display:none;}
+
+/*地图*/
+.banner{background:url(../img/v4-03.jpg) no-repeat;
+        width:1348px;
+        height:600px;}
+
+
+.banner-m{  background:#fff;border:1px solid #ccc;}
+
+.banner-m .p1{width:360px;margin:0 20px;
+                margin-bottom:32px;
+                height:53px;
+                border-bottom:2px solid #ccc;}
+
+.banner-m .p1 .a1{width:180px;
+                    height:50px;
+                    line-height:50px;
+                    font-size:18px;
+                    border-bottom:3px solid #fff;
+                    text-align:center;
+
+                    }
+
+.banner-m .p1 .a2{width:180px;
+                    height:50px;
+                    line-height:50px;
+                    font-size:18px;
+                     border-bottom:3px solid #fff;
+                     text-align:center;
+                    }
+
+
+.banner-m .p1 .on{border-bottom:3px solid #32c5d2;
+                  }
+
+.banner-r .user,.pass{width:298px;
+                        height:43px;
+                        border:1px solid #ccc;
+                        border-radius:6px;
+                        margin-bottom:20px;
+                        margin-left:50px;}
+
+.banner-r .yan{width:148px;
+                height:43px;
+                border:1px solid #ccc;
+                margin-left:50px;
+                border-radius:6px;
+                }
+
+.banner-r .p2 span{background:url(../img/image.jpg) no-repeat center;
+                    width:120px;
+                    height:43px;
+                    display:block;
+                    margin-left:15px;
+                    line-height:43px;}
+
+.banner-r .p2{margin-bottom:28px;}
+
+.banner-r .p3{margin-left:50px;
+              margin-bottom:21px;
+              height:16px;
+               line-height:16px;
+                font-size:13px;
+                width:300px;
+            }
+.banner .banner-r .a4{height:50px;
+                      width:300px;
+                     font-size:16px;
+                     display:block;
+                    background:#68a0d0;
+                    line-height:50px;
+                    text-align:center;
+                    margin-left:50px;
+                    border-radius:6px;
+                    margin-bottom:32px;
+                    }
+
+.banner-m{position:absolute;
+          right:80px;
+            top:200px;}
+
+.banner-l img{height:340px;width:400px;}
+
+.banner-m .banner-l{width:400px;
+                    height:340px;
+                    margin:0 auto;
+                    display:none;
+                    }
+
+#banner{width:400px;
+        height:340px;}
+
+.banner-m .banner-r{height:340px;width:400px;}
+

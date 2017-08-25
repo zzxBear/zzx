@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>联系我们</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css" />
+	<link rel="stylesheet" type="text/css" href="style/base.css" />
+<link href="style/all.source.css" rel="stylesheet">
+</head>
+<body>
+	<!-- header start -->
+	<header>
+		<div class="clearfix head">
+			<a href="" class="fl logo"><img src="images/logo.png"></a>
+			<nav class="fr">
+				<a href="index.html">关于我们</a>
+				<a href="financing.html">申请融资</a>
+				<a href="law.html">了解保理</a>
+				<a href="contact.html" class="now">联系我们</a>
+			</nav>
+		</div>
+	</header>
+	<style>
+		header{
+			background: rgba(0,0,0,1);
+		}
+	</style>
+	<!-- header end -->
+
+	<!-- honor start -->
+	<div class="honor"><h2>联系我们</h2></div>
+	<!-- honor end -->
+
+	<!-- contact_info start -->
+	<ul class="contact_info clearfix">
+		<li class="fl">
+			<a href="javascript:;" class="address"><img src="images/address.png"></a>
+			<span>公司地址</span>
+			<b></b>
+			<p>深圳市南山区侨香路香年广场B座703</p>
+		</li>
+		<li class="fl">
+			<a href="javascript:;" class="address"><img src="images/contact_way.png"></a>
+			<span>联系方式</span>
+			<b></b>
+			<p>0755-86703917</p>
+		</li>
+		<li class="fl">
+			<a href="javascript:;" class="address"><img src="images/mail.png"></a>
+			<span>电子邮件</span>
+			<b></b>
+			<p>office@guoyinhuijin.com</p>
+		</li>
+	</ul>
+	<!-- contact_info end -->
+
+	<!-- baidu-map start -->
+	<div class="baidu-map" id="allmap"></div>
+
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=DD279b2a90afdf0ae7a3796787a0742e"></script>
+	<script>
+		// 百度地图API功能
+	    var map = new BMap.Map("allmap");
+	    var point = new BMap.Point(113.993669,22.5531);
+	    map.centerAndZoom(point, 18);
+	    var marker = new BMap.Marker(point);
+	    map.addOverlay(marker);
+	    marker.setAnimation(BMAP_ANIMATION_BOUNCE);
+	</script>
+	<!-- baidu-map end -->
+
+	<!-- footer start -->
+	<!-- <div class="foot_box">
+		<footer class="foot clearfix">
+			<div class="fl left">
+				<p><img src="images/footer_icon1.png"><span>公司地址：深圳市南山区侨香路香年广场B座703</span></p>
+				<p><img src="images/footer_icon2.png"><span>邮     编：51000</span></p>
+				<p><img src="images/footer_icon3.png"><span>邮     箱：office@guoyinhuijin.com</span></p>
+				<p><img src="images/footer_icon4.png"><span>电     话：0755-86703917</span></p>
+				<div>
+					<img src="images/footer_logo1.png">
+					<img src="images/footer_logo2.png">
+					<img src="images/footer_logo3.png">
+				</div>
+				<p class="copyright">版权所有 © 2017 深圳国银汇金商业保理有限公司 | 粤ICP备14081986号</p>
+			</div>
+			<div class="fr right"><img src="images/footer_weixin.png"></div>
+		</footer>
+	</div> -->
+	 <div id="footer" class="footer">
+            <div class="wrap">
+                <div class="left-box">
+                    <div class="cont">
+                        <p>公司地址：深圳市南山区侨香路香年广场A座16楼</p>
+                        <p>邮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;编：518000</p>
+                        <p>邮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;箱：office@hongliquan.com</p>
+                        <p>电&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;话：0755-82217800</p>
+                    </div>
+                    <div class="link-box">
+                        <a href="#"><img src="images/friendlyLink/fl-01.jpg" alt=""/></a>
+                        <a href="#"><img src="images/friendlyLink/fl-02.jpg" alt=""/></a>
+                        <a href="#"><img src="images/friendlyLink/fl-03.jpg" alt=""/></a>
+                    </div>
+                    <p class="copy-box">版权所有 &copy; 2014 深圳市红利圈金融服务有限公司 | <a href="#">粤ICP备14081986号</a></p>
+                </div>
+                <div class="right-box">
+                    <div class="we-code">
+                        <img src="images/footer-tc-1.jpg" alt=""><p>微信公众号</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+	<!-- footer end -->
+</body>
+</html>

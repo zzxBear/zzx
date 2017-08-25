@@ -1,0 +1,95 @@
+html{ font-size:20px;}
+.box{
+    width:9rem;
+
+    background:#77d49b;
+
+}
+.box span{color:#fff;
+    font-size:.3043rem;
+    padding:0.2391rem 0rem 0.3043rem 0.2826rem;}
+
+.box p .head-r span{background:url(../img/head.png) no-repeat left center;
+                    width:.369rem;height:.456rem;
+                    padding:.1739rem 0rem .2608rem 0rem;
+                    float:left;}
+
+
+.box p .head-r i{
+    /*width:1.065rem;*/
+    padding:.2608rem .4782rem .2608rem 0rem;
+    margin-left:0.108rem;
+    font-size:0.2608rem;
+    color:#fff;
+}
+.banner{width:9rem;
+        height:4.6306rem;}
+
+.swiper-slide img{width:9rem;
+                 height:4.6306rem;}
+
+.swiper-container{width:100%;
+                  height:100%;
+                    margin:0;}
+
+.swiper-pagination span{color:#fff;
+                        font-size:0.2608rem;}
+
+.p-car p{width:5.6956rem;
+            overflow:hidden;
+            border-bottom:.0217rem solid #ccc;
+            margin-left:1.673rem;
+            display:flex;}
+
+
+.p-car p span{background:url(../img/car_03.png) no-repeat left center;
+                height:.391rem;width:4.086rem;
+                font-size:0.021rem;
+                line-height:.391rem;
+                 padding:.173rem 0 .086rem .717rem;
+                margin-left:.456rem;
+                flex:1;}
+
+
+
+
+.list ul{display:flex;}
+.list ul li{flex:1; text-align:center;}
+
+.list ul li img{width:1.086rem;
+                height:1.086rem;
+                padding-top:0.369rem;}
+
+.list ul li b{padding-top:0.152rem;display:block;
+                padding-bottom:0.391rem;
+                font-size:.021rem;
+                }
+
+.list{overflow:hidden;
+        border-bottom:.0217rem solid #ccc;}
+
+
+.mang{overflow:hidden;
+        border-bottom:0.043rem solid #ccc;}
+
+.mang img{width:8.565rem;
+            height:3.239rem;
+            margin:0.217rem;
+            border:.0217rem solid #ccc;}
+
+.mang .img1{width:8.565rem;
+            height:2.4347rem;
+            margin-bottom:0;}
+
+.foot ul{display:flex;}
+
+.foot ul li{flex:1;font-size:0.26rem;
+            text-align:center;
+            padding-top:.152rem;}
+
+.foot ul li i{display:block;
+             padding:.108rem 0 .108rem 0;}
+
+.foot ul{border-bottom:0.021rem solid #ccc;}
+
+.foot ul li:hover{background:#2bd2ca;}

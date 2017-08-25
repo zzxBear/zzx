@@ -1,0 +1,141 @@
+
+html{font-size:20px;}
+.head{background:#77d49b;}
+.head p{text-align:center;
+            color:#fff;
+            font-size:0.369rem;
+            height:0.891rem;
+            line-height:0.891rem;
+            overflow:hidden;}
+
+.head p a{margin:0.195rem 0rem 0.26rem 0.217rem;
+              background: url(../img/foot_07.png) no-repeat left center;
+                width:0.26rem;
+                height:0.434rem;}
+
+.head p i{
+    background: url(../img/foot_04.png) no-repeat  center;
+    width:0.566rem;height:0.566rem;
+    margin:0.173rem 0.26rem 0rem  0rem;}
+
+.header .tou{display:block;
+                width:100%;
+                padding:0.304rem 3.565rem;}
+.header img{width:1.869rem;
+            height:1.869rem;}
+
+.header p .a1{width:1.739rem;
+                height:0.76rem;
+                line-height:0.76rem;
+                text-align:center;
+                display:block;
+                background:#2bd2ca;
+                color:#fff;
+                font-size:0.26rem;}
+.header p{width:4.872rem;padding:0rem 2.76rem 0.434rem 2.76rem;}
+.header p .a2{width:1.739rem;
+
+                line-height:0.76rem;
+                text-align:center;
+                height:0.76rem;
+                display:block;
+                background:#fff;
+                color:#2bd2ca;
+                font-size:0.26rem;}
+.header{background:#f1f1f1;overflow:hidden;}
+
+.money ul{display:flex;}
+.money ul li p{color:#2bd2ca;padding-bottom:0.173rem;}
+.money ul li span{padding-bottom:0.195rem;}
+.money ul li{flex:1;font-size:0.26rem;
+                height:0.934rem;
+            padding:0.239rem 0rem 0.217rem 0rem;}
+
+.money ul li .a1{width:3rem;
+                text-align:center;
+                display:block;}
+.money ul li .a2{width:2.978rem;
+                border-left:0.021rem solid #8bf0e8;
+                text-align:center;
+                display:block;}
+.money .p3{background:#f1f1f1;
+            height:0.217rem;
+            width:100%;}
+.friend-t p{background:url(../img/left_07.png) no-repeat left center;
+            font-size:0.26rem;
+            padding-left:0.939rem;
+            height:0.934rem;
+            line-height:0.934rem;}
+.friend-t i{
+    background:url(../img/jian_26.png) no-repeat right center;
+    width:0.152rem;
+    height:0.282rem;
+    margin:0.326rem 0.152rem 0 0;
+}
+
+.friend-c i{
+    background:url(../img/jian_26.png) no-repeat right center;
+    width:0.152rem;
+    height:0.282rem;
+    margin:0.326rem 0.152rem 0 0;
+
+}
+.friend-c p{background:url(../img/left_10.png) no-repeat left center;
+            font-size:0.26rem;
+            padding-left:0.939rem;
+            height:0.934rem;
+            line-height:0.934rem;}
+
+.friend-t{border-bottom:0.021rem solid #f1f1f1;
+            overflow:hidden;
+            display:block;}
+
+.friend-c{overflow:hidden;}
+.friend-b{width:100%;background:#f1f1f1;height:0.217rem;}
+
+.set-t i{background:url(../img/jian_26.png) no-repeat right center;
+                                  width:0.152rem;
+                                  height:0.282rem;
+                                  margin:0.326rem 0.152rem 0 0;}
+
+.set-t p{background:url(../img/left_12.png) no-repeat left center;
+    font-size:0.26rem;
+    padding-left:0.939rem;
+    height:0.934rem;
+    line-height:0.934rem;}
+
+.set-c,.set-t{border-bottom:0.021rem solid #f1f1f1;
+                overflow:hidden;
+                display:block;}
+.set-c i{background:url(../img/jian_26.png) no-repeat right center;
+    width:0.152rem;
+    height:0.282rem;
+    margin:0.326rem 0.152rem 0 0;}
+
+.set-c p{background:url(../img/left_14.png) no-repeat left center;
+    font-size:0.26rem;
+    padding-left:0.939rem;
+    height:0.934rem;
+    line-height:0.934rem;}
+
+
+.set-b i{color:#6de5fd;font-size:0.021rem;
+    margin:0.326rem 0.217rem 0 0;}
+
+.set-b p{background:url(../img/left_16.png) no-repeat left center;
+    font-size:0.26rem;
+    padding-left:0.939rem;
+    height:0.934rem;
+    line-height:0.934rem;}
+.set-end{background:#f1f1f1;
+    height:0.217rem;
+    width:100%;}
+.blank{border-bottom:0.065rem solid #f1f1f1;}
+.blank p{padding:0.239rem 0 2.76rem;width:4.2rem;
+        margin:0 auto;
+        font-size:0.326rem;
+        }
+.foot ul{display:flex;}
+.foot ul li{flex:1;text-align:center;}
+.foot ul li img{width:0.652rem;height:0.673rem;padding:.152rem 0 .086rem 0;}
+.foot ul li  i{display:block;font-size:0.021rem;}

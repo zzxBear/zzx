@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>申请融资</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css" />
+	<link rel="stylesheet" type="text/css" href="style/base.css" />
+	<link href="style/all.source.css" rel="stylesheet">
+	<script src="js/jquery-1.8.3.min.js"></script>
+</head>
+<body>
+
+	<!-- header start -->
+	<header>
+		<div class="clearfix head">
+			<a href="" class="fl logo"><img src="images/logo.png"></a>
+			<nav class="fr">
+				<a href="index.html">关于我们</a>
+				<a href="financing.html" class="now">申请融资</a>
+				<a href="law.html">了解保理</a>
+				<a href="contact.html">联系我们</a>
+			</nav>
+		</div>
+	</header>
+	<style>
+		header{
+			background: rgba(0,0,0,1);
+		}
+	</style>
+	<!--header end  -->
+	
+	<!-- submit_box start -->
+	<form action="/">
+		<div class="submit_box">
+			<div class="bearer_information">
+				<h4>持票人信息</h4>
+				<div class="clearfix">
+					<p class="fl"><span>姓 名</span><input type="text"></p>
+					<p class="fr"><span>电 话</span><input type="text"></p>
+				</div>
+				<p class="company"><span>公 司</span><input type="text"></p>
+			</div>
+			<div class="bill_information">
+				<h4>票据信息</h4>
+				<div class="bill_one">
+					<h5>1.票面信息（请上传票据正反面）</h5>
+					<div class="clearfix upload">
+						<p class="fl">
+							<a href="javascript:;"><img src="images/upload.png"></a>
+							<a href="javascript:;"><img src="images/upload.png"></a>
+						</p>
+						<div class="fr">
+							<p><span>出票人/承兑人</span><input type="text"></p>
+							<p class="daoqi"><span>票面到期日</span><input type="text"></p>
+						</div>
+					</div>
+					<a href="javascropt:;" class="set_remove"></a>
+				</div>
+				<div class="bill_one">
+					<h5>2.票面信息（请上传票据正反面）</h5>
+					<div class="clearfix upload">
+						<p class="fl">
+							<a href="javascript:;"><img src="images/upload.png"></a>
+							<a href="javascript:;"><img src="images/upload.png"></a>
+						</p>
+						<div class="fr">
+							<p><span>出票人/承兑人</span><input type="text"></p>
+							<p class="daoqi"><span>票面到期日</span><input type="text"></p>
+						</div>
+					</div>
+					<a href="javascropt:;" class="set_add" id="set_add"></a>
+				</div>
+			</div>
+			<div class="remarks">
+				<h4>备注</h4>
+				<textarea></textarea>
+			</div>
+			<div class="submit"><input type="submit" class="sub_btn"></div>
+		</div>
+	</form>
+
+	<script>
+		$(document).ready(function(){
+			// $('.set_add').click(function (){
+			// 	$oD = '<div class="bill_one"><h5><span class="num">'+($('.bill_one').length+1)+'</span>.票面信息（请上传票据正反面）</h5><div class="clearfix upload"><p class="fl"><a href="javascript:;"><img src="images/upload.png"></a><a href="javascript:;"><img src="images/upload.png"></a></p><div class="fr"><p><span>出票人/承兑人</span><input type="text"></p><p class="daoqi"><span>票面到期日</span><input type="text"></p></div></div><a href="javascropt:;" class="set_add" id="set_add"></a></div>';
+			// 	$('.bill_information').append($oD);
+			// 	$(this).removeClass().removeAttr("id").addClass('set_remove');
+			// 	console.log(1);
+			// });
+
+			$('.bill_information').on('click','.bill_one .set_add',function(){
+				$oD = '<div class="bill_one"><h5><span class="num">'+($('.bill_one').length+1)+'</span>.票面信息（请上传票据正反面）</h5><div class="clearfix upload"><p class="fl"><a href="javascript:;"><img src="images/upload.png"></a><a href="javascript:;"><img src="images/upload.png"></a></p><div class="fr"><p><span>出票人/承兑人</span><input type="text"></p><p class="daoqi"><span>票面到期日</span><input type="text"></p></div></div><a href="javascropt:;" class="set_add" id="set_add"></a></div>';
+				$('.bill_information').append($oD);
+				$(this).removeClass().removeAttr("id").addClass('set_remove');
+				console.log(1);
+			});
+
+			$('.bill_information').on('click','.bill_one .set_remove',function(){
+				var l=$('.set_remove').length;
+				if(l>1){
+					$('.bill_one:last').remove();
+					$('.set_remove:last').removeClass().addClass('set_add');
+				}
+				
+			});
+
+
+			// $('.set_remove').each(function(){
+			// 	$('.set_remove').on('click',function(){
+			// 		//alert($('.set_remove').length);
+			// 		//alert($(this).index());
+			// 		$('.bill_one:eq('+$(this).index()+')').remove();
+			// 	});
+			// });
+		});
+		// var aInp = document.getElementsByTagName('input');
+		// var oT = document.getElementsByTagName('textarea')[0];
+		// oT.onfocus = function(){
+		// 	this.style.borderColor = '#d9b778';
+		// };
+		// oT.onblur = function(){
+		// 	this.style.borderColor = '#cbcbcb';
+		// };
+		// for (var i = 0; i < aInp.length; i++) {
+		// 	aInp[i].onfocus = function(){
+		// 		this.style.borderColor = '#d9b778';
+		// 	};
+		// 	aInp[i].onblur = function(){
+		// 		this.style.borderColor = '#cbcbcb';
+		// 	};
+		// };
+	</script>
+	<!-- submit_box end -->
+	
+	<!-- step start -->
+	<div class="step"><img src="images/buzhou.png"></div>
+	<!-- step end -->
+
+	<!-- footer start -->
+	<!-- <div class="foot_box">
+		<footer class="foot clearfix">
+			<div class="fl left">
+				<p><img src="images/footer_icon1.png"><span>公司地址：深圳市南山区侨香路香年广场B座703</span></p>
+				<p><img src="images/footer_icon2.png"><span>邮     编：51000</span></p>
+				<p><img src="images/footer_icon3.png"><span>邮     箱：office@guoyinhuijin.com</span></p>
+				<p><img src="images/footer_icon4.png"><span>电     话：0755-86703917</span></p>
+				<div>
+					<img src="images/footer_logo1.png">
+					<img src="images/footer_logo2.png">
+					<img src="images/footer_logo3.png">
+				</div>
+				<p class="copyright">版权所有 © 2017 深圳国银汇金商业保理有限公司 | 粤ICP备14081986号</p>
+			</div>
+			<div class="fr right"><img src="images/footer_weixin.png"></div>
+		</footer>
+	</div> -->
+	 <div id="footer" class="footer">
+            <div class="wrap">
+                <div class="left-box">
+                    <div class="cont">
+                        <p>公司地址：深圳市南山区侨香路香年广场A座16楼</p>
+                        <p>邮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;编：518000</p>
+                        <p>邮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;箱：office@hongliquan.com</p>
+                        <p>电&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;话：0755-82217800</p>
+                    </div>
+                    <div class="link-box">
+                        <a href="#"><img src="images/friendlyLink/fl-01.jpg" alt=""/></a>
+                        <a href="#"><img src="images/friendlyLink/fl-02.jpg" alt=""/></a>
+                        <a href="#"><img src="images/friendlyLink/fl-03.jpg" alt=""/></a>
+                    </div>
+                    <p class="copy-box">版权所有 &copy; 2014 深圳市红利圈金融服务有限公司 | <a href="#">粤ICP备14081986号</a></p>
+                </div>
+                <div class="right-box">
+                    <div class="we-code">
+                        <img src="images/footer-tc-1.jpg" alt=""><p>微信公众号</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+	<!-- footer end -->
+</body>
+</html>

@@ -1,0 +1,85 @@
+
+html{font-size:20px;}
+.head{background:#77d49b;}
+.head p{text-align:center;
+            color:#fff;
+            font-size:0.369rem;
+            height:0.891rem;
+            line-height:0.891rem;
+            overflow:hidden;}
+
+.head p a{margin:0.195rem 0rem 0.26rem 0.217rem;
+              background: url(../img/foot_07.png) no-repeat left center;
+                width:0.26rem;
+                height:0.434rem;}
+
+.head p i{
+    background: url(../img/foot_04.png) no-repeat  center;
+    width:0.566rem;height:0.566rem;
+    margin:0.173rem 0.26rem 0rem  0rem;}
+
+
+
+.header p .a1{width:2.826rem;
+                height:0.76rem;
+                line-height:0.76rem;
+                text-align:center;
+                display:block;
+                background:#2bd2ca;
+                color:#fff;
+                border-right:0.021rem solid #2bd2ca;
+                font-size:0.26rem;}
+.header p .a2{width:2.826rem;
+    height:0.76rem;
+    line-height:0.76rem;
+    text-align:center;
+    display:block;
+    border-right:0.021rem solid #2bd2ca;
+    color:#2bd2ca;
+    font-size:0.26rem;}
+
+.header p .a3{width:2.826rem;
+    height:0.76rem;
+    line-height:0.76rem;
+    text-align:center;
+    display:block;
+
+    color:#2bd2ca;
+    font-size:0.26rem;}
+
+.header{overflow:hidden;}
+.header p{border:0.021rem solid #2bd2ca;
+            border-radius:0.13rem;margin:0.217rem auto;}
+
+.con-m .con-l img{width:1.956rem;height:1.956rem;
+                    padding:0.108rem 0.108rem .195rem .108rem; }
+.con-m .con-r .p1{font-size:.347rem;
+                    color:#2bd2ca;
+                    padding:0.26rem 0 0.347rem 0;}
+.con-m .con-r .p2{font-size:.26rem;padding-bottom:.391rem;}
+.con-m .con-r .p3{font-size:.26rem;width:6.826rem;}
+.con-m .con-r .p3 i{color:#c73540;}
+
+.content-c  span,p{font-size:.26rem;}
+.content-c p i{color:#c73540;}
+
+.content-b p{color:#c73540;padding:.304rem 0 .26rem 0rem;}
+.content{border:.021rem solid #eee;display:flex;}
+
+.con-m{display:flex;}
+
+.blank1{height:.173rem;
+        background:#f1f1f1;}
+
+.blank{height:5.5rem;
+        border-bottom:.021rem solid #eee;}
+
+.blank{border-bottom:0.065rem solid #f1f1f1;}
+.blank p{padding:0.239rem 0 2.76rem;width:4.2rem;
+        margin:0 auto;
+        font-size:0.326rem;
+        }
+.foot ul{display:flex;}
+.foot ul li{flex:1;text-align:center;}
+.foot ul li img{width:0.652rem;height:0.673rem;padding:.152rem 0 .086rem 0;}
+.foot ul li i{display:block;font-size:0.021rem;}

@@ -1,0 +1,357 @@
+.main{
+    width:1364px;
+    margin:0 auto;
+}
+.header{
+    width:100%;
+    height:127px;
+    background:url(../img/1.png) repeat-x;
+}
+.header-con{
+    width:1170px;
+    height:127px;
+    margin:0 auto;
+}
+.logo{
+    width: 244px;
+    height:73px;
+    margin-top:25px;
+}
+.logo a{
+    width: 244px;
+    height:73px;
+    display: block;
+    background: url(../img/logo.png) no-repeat;
+    text-indent:-999em;
+}
+.nav-bar{
+    width:812px;
+    height:122px;
+    margin-top:6px;
+}
+.list li a{
+    font-size:15px;
+    color:#000;
+    display: inline-block;
+    padding:5px 20px;
+    line-height:110px;
+    background: url(../img/nav_line.png) no-repeat center right;
+}
+.list li a:hover{
+     background:#4e9d00;
+     color:#fff;
+ }
+.banner{
+    width:100%;
+    height:458px;
+    position: relative;
+    overflow: hidden;
+}
+.banner ul{
+    position: absolute;
+    top:0;
+    left:0;
+}
+.banner ul li{
+    width:1366px;
+    height:458px;
+    display: none;
+}
+.banner ul li img{
+    width:100%;
+    height:458px;
+}
+#ol1{
+    width: 150px;
+    height:30px;
+    background: rgba(0,0,0,.5);
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    bottom: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+#ol1 li{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #B7B7B7;
+    display: inline-block;
+    cursor: pointer;
+    margin-top:5px;
+}
+#ol1 .active{
+    background: #fff;
+}
+#left{
+    width:100px;
+    height:100px;
+    background:#ccc;
+    font-size:100px;
+    position: absolute;
+    left:50px;
+    top:40%;
+    color:#fff;
+    z-index: 1;
+    text-align: center;
+    line-height:100px;
+    opacity: 0.2;
+}
+#right{
+    width:100px;
+    height:100px;
+    font-size:100px;
+    position: absolute;
+    right:50px;
+    top:40%;
+    color:#fff;
+    z-index: 1;
+    background:#ccc;
+    text-align: center;
+    line-height:100px;
+    opacity: 0.2;
+}
+.content{
+    width:100%;
+    height:1077px;
+}
+.content-con{
+    width:1170px;
+    height:1077px;
+    margin:0 auto;
+}
+.con-con-t{
+    width:100%;
+    height:120px;
+    margin-top:38px;
+    background: url(../img/join_tl_bg.png) no-repeat;
+    background-size:100%;
+}
+.con-con-b{
+    width:100%;
+    height:918px;
+}
+.con-con-b p{
+    width:100%;
+    height:42px;
+    font-size:28px;
+    color:#333;
+    border-bottom:1px solid #ccc;
+}
+.con-c-txt{
+    width:100%;
+    height:874px;
+}
+.con-c-t-1{
+    width:100%;
+    height:46px;
+    margin-top:47px;
+}
+.con-t-l,.con2-t-l,.con3-t-l,.con4-t-l,.con5-t-l,.con7-t-l{
+    width:140px;
+    height:46px;
+    font-size:16px;
+    color:#333;
+    text-align: right;
+    line-height:46px;
+}
+.con-t-r{
+    width:392px;
+    height:44px;
+    border:1px solid #ccc;
+    margin-left:20px;
+    padding-left:10px;
+}
+.con-c-t-2,.con2-c-t-2,.con3-c-t-3,.con4-c-t-4,.con5-c-t-5{
+    width:100%;
+    height:46px;
+    margin-top:34px;
+}
+.con2-t-r{
+    width:796px;
+    height:44px;
+    border:1px solid #ccc;
+    margin-left:20px;
+    padding-left:10px;
+}
+.con3-t-r{
+    width:1030px;
+    height:46px;
+}
+.con3-t-r-a,.con3-t-r-b,.con3-t-r-c,.con3-t-r-d{
+    width:220px;
+    height:46px;
+    border:1px solid #ccc;
+    margin-left:20px;
+    padding-left:10px;
+}
+.con4-t-r{
+    width:594px;
+    height:46px;
+    border:1px solid #ccc;
+    margin-left:20px;
+    padding-left:10px;
+}
+.con5-t-r{
+    width:695px;
+    height:46px;
+    border:1px solid #ccc;
+    margin-left:20px;
+    padding-left:10px;
+}
+.con6-c-t-6{
+    width:100%;
+    height:200px;
+    margin-top:17px;
+}
+.con6-t-l{
+    width:140px;
+    height:200px;
+    text-align: right;
+}
+.ot{
+    width:806px;
+    height:197px;
+    margin-left:20px;
+}
+.con7-c-t-7{
+    width:100%;
+    height:46px;
+    margin-top:17px;
+}
+.con7-t-r{
+    width:290px;
+    height:46px;
+    border:1px solid #ccc;
+    margin-left:20px;
+    padding-left:10px;
+}
+.con7-t-r1{
+    margin-left:30px;
+    margin-top:5px;
+}
+.con8-c-t-8{
+    width:100%;
+    height:103px;
+    margin-top:78px;
+}
+.con8-t-l{
+    width:202px;
+    height:44px;
+    display: block;
+    background:#54a401;
+    text-align: center;
+    line-height:44px;
+    color:#fff;
+    margin-left:190px;
+}
+.con8-t-r{
+    width:202px;
+    height:44px;
+    display: block;
+    background:#9c9c9c;
+    text-align: center;
+    line-height:44px;
+    color:#fff;
+    margin-left:60px;
+}
+.foot-bg{
+    width:100%;
+    height:470px;
+    background:url(../img/sy_bg2.jpg) no-repeat;
+    text-align: center;
+    /*text-align: center;*/
+    line-height:470px;
+}
+.foot-bg-con{
+    width:1170px;
+    height:470px;
+    margin:0 auto;
+    text-align: center;
+}
+.foot-bg-con img{
+    vertical-align: middle;
+}
+.foot{
+    width:100%;
+    height:160px;
+    background:url(../img/2.png) repeat-x;
+}
+.foot-con{
+    width:1166px;
+    height:160px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.foot-con .foot-con-list{
+    width:388px;
+    height:108px;
+    margin-top:25px;
+}
+.f-c-l-s{
+    width:126px;
+    height:108px;
+    border-left:1px solid #7d7d7d;
+    border-right:1px solid #484848;
+}
+.f-c-l-s h4{
+    color:#fff;
+    font-size:16px;
+    font-weight: bold;
+    text-align: center;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.f-c-l-s ul{
+    width:126px;
+    height:82px;
+}
+.f-c-l-s ul li{
+    width:126px;
+    height:26px;
+    text-align: center;
+}
+.f-c-l-s ul li a{
+    font-size:12px;
+    color:#fff;
+    line-height:26px;
+}
+.mar-l0{
+    border-left:0;
+}
+.mar-r0{
+    border-right:0;
+}
+.foot-image{
+    width:380px;
+    height:160px;
+}
+.foot-con-r{
+    width:367px;
+    height:130px;
+    color:#fff;
+    padding-top:30px;
+    padding-left:30px;
+    line-height:28px;
+}
+.fixed{
+    width:30px;
+    height:100px;
+    background:#ff0000;
+    position: fixed;
+    right:0;
+    top:65%;
+    border-radius: 7px 0 0 7px;
+    /*text-align: right;*/
+}
+.fixed p{
+    width:20px;
+    height:90px;
+    margin-left:10px;
+    margin-top:6px;
+    line-height:20px;
+    color:#fff;
+    font-size:14px;
+    font-family: '微软雅黑';
+}
