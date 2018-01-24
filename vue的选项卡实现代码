@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>选项卡</title>
+    <script src="vue.js"></script>
+    <style>
+        .active{
+            color:red
+        }
+        #app ul{
+            width:300px;
+            display:flex;
+            height:30px;
+        }
+        ul li {
+            text-align:center;
+            list-style:none;
+            flex:1;
+            font-size:20px;
+            border:1px solid #000;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    <ul>
+        <li @click="toggle($index ,tab.view)" v-for="tab in tabs" :class="{active:active==$index}">
+            {{tab.type}}
+        </li>
+    </ul>
+    <component :is="currentView"></component>
+</div>
+<script>
+    Vue.component('child1', {
+        template: "<p>this is child1</p>"
+    })
+    Vue.component('child2', {
+        template: "<p>this is child2</p>"
+    })
+    Vue.component('child3',{
+        template:`<p>this is child 33</p>`
+    })
+    new Vue({
+        el: "#app",
+        data: {
+            active: 0,
+            currentView: 'child1',
+            tabs: [
+                {
+                    type: '选项一',
+                    view: 'child1'
+                },
+                {
+                    type: '选项二',
+                    view: 'child2'
+                },
+                {
+                    type: '选项三',
+                    view: 'child3'
+                }
+            ]
+        },
+        methods: {
+            toggle(index, view){
+                this.active = index
+                this.currentView = view
+            }
+        }
+    })
+</script>
+</body>
+</html>
